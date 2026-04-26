@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+torch
+transformers
+joblib
+requests
+PyMuPDF
+scikit-learn

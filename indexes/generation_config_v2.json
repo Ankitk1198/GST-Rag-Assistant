@@ -1,0 +1,13 @@
+{
+  "generation_backend": "ollama",
+  "generator_model": "gemma2:9b",
+  "ollama_base_url": "http://127.0.0.1:11434",
+  "retrieval_function": "retrieve_hybrid",
+  "retrieval_top_k_default": 12,
+  "context_top_k_default": 4,
+  "max_chars_per_chunk_default": 2200,
+  "max_new_tokens_default": 320,
+  "style": "grounded bare-law answer",
+  "abstain_enabled": true,
+  "reranker_used": false
+}
