@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: gst-rag-assistant
+    env: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: cd notebooks && streamlit run streamlit_app.py --server.address=0.0.0.0 --server.port=$PORT
