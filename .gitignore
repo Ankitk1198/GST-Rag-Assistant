@@ -7,3 +7,25 @@ __pycache__/
 .env.*
 *.log
 evaluation/
+
+# Local working files
+raw/
+parsed/
+evaluation/
+logs/
+outputs/
+*.log
+
+# Notebooks and experiments
+notebooks/*.ipynb
+notebooks/test_backend.py
+notebooks/requirements.txt
+notebooks/__pycache__/
+
+# Intermediate artifacts not needed for deployed app
+chunks/chunk_records_final.json
+chunks/chunk_records_stage3.json
+indexes/bm25_state_v1.pkl
+indexes/generation_config_v1.json
+indexes/hybrid_retrieval_config_v1.json
+indexes/reranker_config_v1.json
