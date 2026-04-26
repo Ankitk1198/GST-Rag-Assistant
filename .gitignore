@@ -29,3 +29,4 @@ indexes/bm25_state_v1.pkl
 indexes/generation_config_v1.json
 indexes/hybrid_retrieval_config_v1.json
 indexes/reranker_config_v1.json
+notebooks/.gitignore
